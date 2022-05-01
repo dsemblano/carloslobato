@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Menu
+header nav {
+    ul {
+        @apply lg:flex justify-end flex-1 items-center;
+
+        li {
+            @apply mr-3;
+
+            a {
+                @apply inline-block py-2 px-4 text-black font-bold no-underline;
+            }
+        }
+    }
+}
