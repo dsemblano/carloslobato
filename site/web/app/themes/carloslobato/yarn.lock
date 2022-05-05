@@ -1155,20 +1155,7 @@
   resolved "https://registry.npmjs.org/@roots/bud-hooks/-/bud-hooks-5.7.7.tgz#ff5c6d38ee5a6c970fcc0f2f1fc8e3eed5d04fe4"
   integrity sha512-4tCiPHWlldTrfXeM9DislBw/Xt15o6V6dclku+21GvhyBAQ29ugzBLrDcrNcP1lWmNcqYSMlKJTxb9JR/qX+Pw==
 
-"@roots/bud-postcss@5.7.7":
-  version "5.7.7"
-  resolved "https://registry.npmjs.org/@roots/bud-postcss/-/bud-postcss-5.7.7.tgz#9cb7259a7d49dbc98877f6ed1b49923123da2a82"
-  integrity sha512-BPcoU7rGdzcrsGUycb4vuCBZM6WP6uTfSxw3EXwEIJNKbydLvaQ0U2bzpb9rm8KwcRPg4qOyznV+81ISSDMOOA==
-  dependencies:
-    "@roots/bud-build" "5.7.7"
-    postcss "8.4.12"
-    postcss-import "14.0.2"
-    postcss-loader "6.2.1"
-    postcss-nested "5.0.6"
-    postcss-preset-env "7.4.2"
-    tslib "2.3.1"
-
-"@roots/bud-postcss@^5.7.7":
+"@roots/bud-postcss@5.7.7", "@roots/bud-postcss@^5.7.7":
   version "5.7.7"
   resolved "https://registry.yarnpkg.com/@roots/bud-postcss/-/bud-postcss-5.7.7.tgz#9cb7259a7d49dbc98877f6ed1b49923123da2a82"
   integrity sha512-BPcoU7rGdzcrsGUycb4vuCBZM6WP6uTfSxw3EXwEIJNKbydLvaQ0U2bzpb9rm8KwcRPg4qOyznV+81ISSDMOOA==
