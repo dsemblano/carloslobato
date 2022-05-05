@@ -1,7 +1,10 @@
 module.exports = {
   content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}'],
   theme: {
-    extend: {
+    container: {
+      center: true,
+    },
+    extend: { 
       colors: {
         pros90orange: '#F6913A',
         pros90blue: '#357CBF',
@@ -11,5 +14,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 };

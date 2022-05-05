@@ -1,4 +1,4 @@
-<div class="px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center bg-white border-bs">
+<div class="px-3 mx-auto px-4 flex flex-wrap flex-col md:flex-row items-center bg-white border-bs">
   <!--Left Col-->
   <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
     <p class="uppercase tracking-loose w-full">Prós 90 Amapá</p>

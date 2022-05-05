@@ -1,4 +1,4 @@
-<header class="banner container mx-auto w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20 bg-gray-100">
+<header class="banner container px-4 w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 lg:bg-transparent text-black p-4 lg:p-0 z-20 bg-gray-100">
   <a class="brand" href="{{ home_url('/') }}">
     {{-- {!! $siteName !!} --}}
     <img src="@asset('images/logo.webp')" />

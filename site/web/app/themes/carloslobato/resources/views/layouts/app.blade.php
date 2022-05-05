@@ -4,7 +4,7 @@
 
 @include('sections.header')
 
-  <main id="main" class="main container mx-auto">
+  <main id="main" class="main container px-4">
     @yield('content')
   </main>
 
