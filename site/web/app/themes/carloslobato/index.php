@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="node_modules/flowbite/dist/flowbite.min.css" />
   <?php wp_head(); ?>
 </head>
 
@@ -18,7 +17,8 @@
 
   <?php do_action('get_footer'); ?>
   <?php wp_footer(); ?>
-  <script src="node_modules/flowbite/dist/flowbite.js"></script>
+
+
 </body>
 
 </html>
