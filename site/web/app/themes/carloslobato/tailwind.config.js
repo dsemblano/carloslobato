@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}'],
+  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}', './node_modules/flowbite/**/*.js'],
   theme: {
     container: {
       center: true,
@@ -15,6 +15,6 @@ module.exports = {
     },
   },
   plugins: [
-    // require('flowbite/plugin')
+    require('flowbite/plugin')
   ],
 };
