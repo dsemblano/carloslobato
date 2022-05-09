@@ -1062,11 +1062,6 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@popperjs/core@^2.9.3":
-  version "2.11.5"
-  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
-  integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
-
 "@roots/bud-api@5.7.7":
   version "5.7.7"
   resolved "https://registry.npmjs.org/@roots/bud-api/-/bud-api-5.7.7.tgz#975b398be113b715e329ba6c79d6b84914e523b1"
@@ -2847,14 +2842,6 @@ find-up@^5.0.0:
   dependencies:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
-
-flowbite@^1.4.5:
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/flowbite/-/flowbite-1.4.5.tgz#324d3ba35fdce8fd648cc7a0ff6a70d7c46c041f"
-  integrity sha512-6Y5tGBUM+qP/KzehtJ4s+CO+4stQo7dMIozAzuc+x724uDmEM8/ti/KbyxykADTiyBCJd++dNJj3fa0EpxmRvQ==
-  dependencies:
-    "@popperjs/core" "^2.9.3"
-    mini-svg-data-uri "^1.4.3"
 
 follow-redirects@^1.0.0:
   version "1.14.6"

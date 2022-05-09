@@ -4,7 +4,7 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: { 
+    extend: {
       colors: {
         pros90orange: '#F6913A',
         pros90blue: '#357CBF',
@@ -15,6 +15,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    // require('flowbite/plugin')
   ],
 };
