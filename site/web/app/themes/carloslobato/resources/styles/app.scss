@@ -17,7 +17,8 @@ header nav {
     }
 }
 
-.wpcf7-form {
+.wp-block-contact-form-7-contact-form-selector {
+    @apply container mx-auto;
     label {
         @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
     }
