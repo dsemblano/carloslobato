@@ -18,7 +18,14 @@ header nav {
 }
 
 .wp-block-contact-form-7-contact-form-selector {
+  display: none;
+}
+
+.home {
+  .wp-block-contact-form-7-contact-form-selector {
     @apply container mx-auto flex;
+
+    display: block;
 
     label {
         @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
@@ -37,3 +44,6 @@ header nav {
         @apply bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3;
     }
 }
+}
+
+
