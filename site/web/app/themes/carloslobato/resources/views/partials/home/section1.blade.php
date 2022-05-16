@@ -6,15 +6,26 @@
     <p class="leading-normal text-2xl mb-8">
       Advogado, radialista e jornalista, nascido em 16/11/1956 é pré candidato a Deputado Estadual pelo Prós 90 Amapá.
     </p>
-    <p class="mb-8">
-    @include('partials/snippets.social')
-    </p>
-    <p class="mt-8">
-    @include('partials/snippets.facebook')
-    </p>
+    <div class="social hidden lg:block">
+      <p class="mb-8">
+      @include('partials/snippets.social')
+      </p>
+      <p class="mt-8">
+      @include('partials/snippets.facebook')
+      </p>
+    </div>
+
   </div>
   <!--Right Col-->
   <div class="w-full md:w-3/5 py-6 text-center">
     <img class="w-full md:w-4/5 z-50 rounded-tl-extraLarge rounded-br-extraLarge" src="@asset('images/perfil.jpg')" />
   </div>
+  <div class="social block lg:hidden">
+      <p class="mb-8">
+      @include('partials/snippets.social')
+      </p>
+      <p class="mt-8">
+      @include('partials/snippets.facebook')
+      </p>
+    </div>
 </div>
