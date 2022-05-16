@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         pros90orange: '#F6913A',
         pros90blue: '#357CBF',
+        pros90gray: '#F5F3FE',
       },
       borderRadius: {
         extraLarge: '12rem'

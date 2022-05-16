@@ -1,5 +1,5 @@
-<section class="bg-white border-b py-8">
-    <div class="container max-w-5xl mx-auto px-4 m-8">
+<section class="bg-pros90gray w-full">
+    <div class="container max-w-5xl mx-auto p-4 m-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Prós 90 Amapá
       </h2>
