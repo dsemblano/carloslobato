@@ -117,6 +117,11 @@ add_action('widgets_init', function () {
     ];
 
     register_sidebar([
+        'name' => __('Textos', 'sage'),
+        'id' => 'textos-primary',
+    ] + $config);
+
+    register_sidebar([
         'name' => __('Primary', 'sage'),
         'id' => 'sidebar-primary',
     ] + $config);
