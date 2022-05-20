@@ -4,8 +4,6 @@
 
 
   @while(have_posts()) @php(the_post())
-    @include('partials/home.section1')
-    @include('partials/home.section2')
   @endwhile
 @endsection
 
