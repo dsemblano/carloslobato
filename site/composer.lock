@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a27db1dcb05f489af59d7978b5ff3b98",
+    "content-hash": "b3e10d848e372f6f6350986d09e514bf",
     "packages": [
         {
             "name": "brick/math",
@@ -4726,6 +4726,24 @@
             "time": "2022-01-24T18:55:24+00:00"
         },
         {
+            "name": "wpackagist-plugin/automatic-translator-addon-for-loco-translate",
+            "version": "2.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/automatic-translator-addon-for-loco-translate/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/automatic-translator-addon-for-loco-translate.zip?timestamp=1651489018"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/automatic-translator-addon-for-loco-translate/"
+        },
+        {
             "name": "wpackagist-plugin/block-context",
             "version": "0.1.0",
             "source": {
@@ -4778,6 +4796,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/instagram-feed/"
+        },
+        {
+            "name": "wpackagist-plugin/loco-translate",
+            "version": "2.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/loco-translate/",
+                "reference": "tags/2.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.6.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/loco-translate/"
         },
         {
             "name": "wpackagist-plugin/wd-instagram-feed",
