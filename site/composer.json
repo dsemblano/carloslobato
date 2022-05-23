@@ -49,7 +49,9 @@
     "wpackagist-plugin/loco-translate":">=2.3.3",
     "wpackagist-plugin/automatic-translator-addon-for-loco-translate":">=2.1.1",
     "wpackagist-plugin/fakerpress":">=0.5.3",
+    "wpackagist-plugin/default-featured-image":">=1.7.2.1",
     "wpackagist-plugin/wps-hide-login":">=1.9.4",
+    "wpackagist-plugin/regenerate-thumbnails":">=3.1.5",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
