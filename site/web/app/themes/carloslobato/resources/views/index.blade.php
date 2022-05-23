@@ -13,6 +13,8 @@
 
   @while(have_posts()) @php(the_post())
     @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
+    @include('partials/home.section1')
+    @include('partials/home.section2')
   @endwhile
 
   {!! get_the_posts_navigation() !!}
