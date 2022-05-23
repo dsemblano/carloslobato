@@ -1,7 +1,7 @@
-  <section class="bg-pros90gray w-full">
+  <section class="section2 bg-pros90gray w-full">
       <div class="container max-w-5xl mx-auto p-4 m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Prós 90 Amapá
+          Pros 90 Amapá section2
         </h2>
         <img class="w-full" src="@asset('images/pros90.webp')" />
         <div class="w-full mb-4">
@@ -155,5 +155,4 @@
           </div>
         </div>
       </div>
-      {!! do_shortcode('[wdi_feed id="1"]') !!}
     </section>

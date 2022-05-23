@@ -6,5 +6,5 @@
 
 @section('content')
     @include('partials/home.section1')
-    @include('partials/home.section2')
+    {!! do_shortcode('[wdi_feed id="1"]') !!}
 @endsection
