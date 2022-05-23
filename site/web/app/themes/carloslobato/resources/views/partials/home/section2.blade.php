@@ -155,5 +155,5 @@
           </div>
         </div>
       </div>
-      {{ do_shortcode('[wdi_feed id="1"]') }}
+      {!! do_shortcode('[wdi_feed id="1"]') !!}
     </section>
