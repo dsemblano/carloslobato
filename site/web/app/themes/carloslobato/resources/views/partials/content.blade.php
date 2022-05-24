@@ -10,7 +10,7 @@
       </a>
     </figure>
       <header>
-        <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
+        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
           <a href="{{ get_permalink() }}">
             {!! $title !!}
           </a>
@@ -19,7 +19,7 @@
       @include('partials.entry-meta')
       </header>
         <?php
-          echo '<p class="leading-relaxed text-base text-gray-600 mt-4">' . get_the_excerpt() . '</p>'; 
+          echo '<p class="leading-relaxed text-base text-gray-600 mt-2">' . get_the_excerpt() . '</p>'; 
         ?>
   </div>
 </article>
