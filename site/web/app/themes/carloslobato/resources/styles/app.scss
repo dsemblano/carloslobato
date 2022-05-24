@@ -81,3 +81,10 @@ header nav {
     }
   }
 }
+
+// video inside block
+
+figure.wp-block-video {
+  @apply xl:w-3/5;
+  
+}
