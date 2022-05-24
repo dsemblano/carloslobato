@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "686efcd80f1b76cdd82b401dc4740fa3",
+    "content-hash": "c1cb8ffc2a8a4b880b427b1ab125cbc0",
     "packages": [
         {
             "name": "brick/math",
@@ -4726,6 +4726,24 @@
             "time": "2022-01-24T18:55:24+00:00"
         },
         {
+            "name": "wpackagist-plugin/autodescription",
+            "version": "4.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autodescription/",
+                "reference": "tags/4.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.4.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
             "name": "wpackagist-plugin/automatic-translator-addon-for-loco-translate",
             "version": "2.3.1",
             "source": {
@@ -4835,15 +4853,15 @@
         },
         {
             "name": "wpackagist-plugin/loco-translate",
-            "version": "2.6.1",
+            "version": "2.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/loco-translate/",
-                "reference": "tags/2.6.1"
+                "reference": "tags/2.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.6.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/loco-translate.2.6.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
