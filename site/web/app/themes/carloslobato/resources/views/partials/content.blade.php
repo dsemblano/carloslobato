@@ -18,9 +18,8 @@
     
       @include('partials.entry-meta')
       </header>
-    
-      <div class="leading-relaxed text-base">
-        @php(the_excerpt())
-      </div>
+        <?php
+          echo '<p class="leading-relaxed text-base text-gray-600 mt-4">' . get_the_excerpt() . '</p>'; 
+        ?>
   </div>
 </article>
