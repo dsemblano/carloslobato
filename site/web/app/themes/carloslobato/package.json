@@ -22,7 +22,8 @@
     "@roots/bud-postcss": "^5.7.7",
     "@roots/bud-sass": "^5.7.7",
     "@roots/bud-tailwindcss": "5.7.7",
-    "@roots/sage": "5.7.7"
+    "@roots/sage": "5.7.7",
+    "@tailwindcss/typography": "^0.5.2"
   },
   "dependencies": {
     "flickity": "^3.0.0",
