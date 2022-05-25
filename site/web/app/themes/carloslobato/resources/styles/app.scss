@@ -96,3 +96,8 @@ figure.wp-block-video {
   @apply xl:w-3/5;
   
 }
+
+// display none para primeira ocorrencia do plugin social share
+p.dpsp-share-text:first-of-type {
+  display: none;
+}

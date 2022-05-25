@@ -53,6 +53,8 @@
     "wpackagist-plugin/wps-hide-login":">=1.9.4",
     "wpackagist-plugin/regenerate-thumbnails":">=3.1.5",
     "wpackagist-plugin/autodescription":">=4.2.4",
+    "wpackagist-plugin/shareaholic":">=9.7.5",
+    "wpackagist-plugin/social-pug":">=1.20.1",
     "roots/acorn": "^2.0"
   },
   "require-dev": {

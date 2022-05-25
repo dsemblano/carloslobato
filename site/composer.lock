@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1cb8ffc2a8a4b880b427b1ab125cbc0",
+    "content-hash": "737aa61eb04d09257297f5b142680dde",
     "packages": [
         {
             "name": "brick/math",
@@ -4886,6 +4886,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist-plugin/shareaholic",
+            "version": "9.7.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shareaholic/",
+                "reference": "tags/9.7.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shareaholic.9.7.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shareaholic/"
+        },
+        {
+            "name": "wpackagist-plugin/social-pug",
+            "version": "1.20.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/social-pug/",
+                "reference": "tags/1.20.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/social-pug.1.20.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/social-pug/"
         },
         {
             "name": "wpackagist-plugin/wd-instagram-feed",
