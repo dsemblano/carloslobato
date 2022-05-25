@@ -72,14 +72,14 @@ header nav {
 .comments,
 .wpcf7-form {
   textarea {
-    @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-2/4 sm:text-sm border border-gray-300 rounded-md;
+    @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full xl:w-2/4 sm:text-sm border border-gray-300 rounded-md;
   }
 
   .comment-form-author,
   .comment-form-email,
   .wpcf7-form-control-wrap {
     input {
-      @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-2/4 shadow-sm sm:text-sm border-gray-300 rounded-md;
+      @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full xl:w-2/4 shadow-sm sm:text-sm border-gray-300 rounded-md;
     }
   }
 }
