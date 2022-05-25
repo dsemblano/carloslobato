@@ -69,20 +69,23 @@ header nav {
       }
 }
 
-.comments {
+.comments,
+.wpcf7-form {
   textarea {
-    @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md;
+    @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-2/4 sm:text-sm border border-gray-300 rounded-md;
   }
 
   .comment-form-author,
-  .comment-form-email {
+  .comment-form-email,
+  .wpcf7-form-control-wrap {
     input {
-      @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md;
+      @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-2/4 shadow-sm sm:text-sm border-gray-300 rounded-md;
     }
   }
 }
 
-.btn {
+.btn,
+.wpcf7-submit {
   @apply bg-blue-500 hover:bg-blue-700 hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
 
 }
