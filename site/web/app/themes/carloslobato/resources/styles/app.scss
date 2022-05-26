@@ -108,11 +108,14 @@ p.dpsp-share-text:first-of-type {
   .dpsp-share-text,
   #dpsp-content-bottom,
   form,
+  .comments,
   footer {
     display: none;
   }
 
-  h1 {
+  h1,
+  h2,
+  blockquote, {
     margin-bottom: 0;
   }
 
