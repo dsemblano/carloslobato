@@ -3,7 +3,7 @@
   <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
     <h1 class="my-4 text-5xl font-bold leading-tight">Carlos Lobato</h1>
     <p class="leading-normal text-2xl mb-8">
-      Advogado, radialista e jornalista, nascido em 16/11/1956 é pré candidato a Deputado Estadual pelo Pros 90 Amapá.
+      Amapaense, advogado, psicólogo, sociólogo, jornalista e âncora do programa Tribuna da Cidade na 1.
     </p>
     <div class="social hidden lg:block w-full">
         @include('partials/snippets.social')
