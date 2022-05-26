@@ -101,3 +101,9 @@ figure.wp-block-video {
 p.dpsp-share-text:first-of-type {
   display: none;
 }
+
+@media print {
+  header nav, footer {
+    display: none;
+    }
+}
