@@ -18,7 +18,7 @@
   <div class="w-full md:w-3/5 py-6 text-center">
     <img class="w-full md:w-4/5 z-50 rounded-tl-extraLarge rounded-br-extraLarge" src="@asset('images/perfil.jpg')" />
   </div>
-  <div class="social block lg:hidden text-center">
+  <div class="social block lg:hidden text-center w-full">
       @include('partials/snippets.social')
       @include('partials/snippets.facebook')
   </div>
