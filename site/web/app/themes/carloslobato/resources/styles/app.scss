@@ -117,8 +117,23 @@ p.dpsp-share-text:first-of-type {
   h2,
   .page-header,
   .author,
+  ul,
   blockquote, {
     margin: 0;
+  }
+
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 25px;
+  }
+
+  aside h2 {
+    font-size: 18pt;
   }
 
 
@@ -149,4 +164,13 @@ p.dpsp-share-text:first-of-type {
     line-height: 1.3;
   }
 
+
+  h1:before {
+    display: block;
+    content: "Obrigado por imprimir nosso conteúdo em carloslobato.com.br!";
+    margin-bottom: 10px;
+    font-size: 10pt;
+    padding: 3px 5px;
+    font-style: italic;
+  }
 }
