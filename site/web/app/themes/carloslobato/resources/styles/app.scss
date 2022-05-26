@@ -103,7 +103,45 @@ p.dpsp-share-text:first-of-type {
 }
 
 @media print {
-  header nav, footer {
+
+  header nav,
+  .dpsp-share-text,
+  #dpsp-content-bottom,
+  form,
+  footer {
     display: none;
-    }
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+
+  img {
+    max-width: 500px;
+  }
+
+
+  @page {
+    margin: 0.5cm;
+  }
+
+  @page :left {
+    margin: 0.5cm;
+  }
+
+  @page :right {
+    margin: 0.8cm;
+  }
+
+  @page :first {
+    margin: 1cm 2cm;
+  }
+
+  
+  body {
+    font: 12pt Georgia, "Times New Roman", Times, serif;
+    line-height: 1.3;
+  }
+
 }
