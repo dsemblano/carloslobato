@@ -1,4 +1,4 @@
-<div class="mb-4 flex flex-col">
+<div class="mb-6 flex flex-col">
     <span class="space-x-4 mb-4" >
         <a class="appearance-none" type="button" aria-label="social-icon" href="https://twitter.com/_carloslobato"
         target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fab"
