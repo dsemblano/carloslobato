@@ -19,11 +19,7 @@
     <img class="w-full md:w-4/5 z-50 rounded-tl-extraLarge rounded-br-extraLarge" src="@asset('images/perfil.jpg')" />
   </div>
   <div class="social block lg:hidden text-center">
-    <p class="mb-8">
       @include('partials/snippets.social')
-    </p>
-    <p class="mt-8">
       @include('partials/snippets.facebook')
-    </p>
   </div>
 </section>
