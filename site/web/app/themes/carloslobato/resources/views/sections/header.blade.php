@@ -1,4 +1,4 @@
-<header class="banner bg-white mb-10">
+<header class="banner bg-white">
   <nav class="nav-primary container px-2 sm:px-4 py-2.5">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a class="brand flex items-center" href="{{ home_url('/') }}">
