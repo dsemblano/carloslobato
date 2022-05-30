@@ -1,15 +1,5 @@
-<article @php(post_class('buscateste'))>
-  <header>
-    <h2 class="entry-title">
-      <a href="{{ get_permalink() }}">
-        {!! $title !!}
-      </a>
-    </h2>
-
-    @includeWhen(get_post_type() === 'post', 'partials.entry-meta')
-  </header>
-
-  <div class="entry-summary">
+<article @php(post_class('article-posts xl:w-1/3 md:w-1/2 p-4'))>
+  <div class="bg-white p-6 rounded-lg">
     <figure class="thumbnail">
       <a href="{{ get_permalink() }}">
       @if ( has_post_thumbnail() )
@@ -19,6 +9,17 @@
       @endif
       </a>
     </figure>
-    @php(the_excerpt())
+      <header>
+        <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+          <a href="{{ get_permalink() }}">
+            {!! $title !!}
+          </a>
+        </h2>
+    
+      @include('partials.entry-meta')
+      </header>
+        <?php
+          //echo '<p class="leading-relaxed text-base text-gray-600 mt-2">' . get_the_excerpt() . '</p>'; 
+        ?>
   </div>
 </article>

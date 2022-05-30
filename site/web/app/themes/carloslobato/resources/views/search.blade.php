@@ -11,9 +11,13 @@
     {!! get_search_form(false) !!}
   @endif
 
+  <div class="flex flex-wrap -m-4">
+
   @while(have_posts()) @php(the_post())
     @include('partials.content-search')
   @endwhile
+
+  </div>
 
   {!! get_the_posts_navigation() !!}
 @endsection
