@@ -137,4 +137,7 @@ add_action('wp_body_open', function () {
     include get_template_directory() . '/resources/views/partials/snippets/fbsdk.js';
 }, 100);
 
-// Add 
+// Add Code to head
+add_action('wp_head', function () {
+    include get_template_directory() . '/resources/views/partials/snippets/gtag.js';
+}, 100);
