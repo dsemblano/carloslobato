@@ -81,6 +81,7 @@ header.banner {
 
   .comment-form-author,
   .comment-form-email,
+  .search-form,
   .wpcf7-form-control-wrap {
     input {
       @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full xl:w-2/4 shadow-sm sm:text-sm border-gray-300 rounded-md;
@@ -89,6 +90,7 @@ header.banner {
 }
 
 .btn,
+.search-form button,
 .wpcf7-submit {
   @apply bg-blue-500 hover:bg-blue-700 hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
 
