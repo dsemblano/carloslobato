@@ -134,11 +134,7 @@ add_action('widgets_init', function () {
 
 // Add Facebok JavaScript SDK 
 add_action('wp_body_open', function () {
-    ?>
-    <div id="fb-root"></div>
-    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v14.0&appId=551938393194479&autoLogAppEvents=1" nonce="ED8Wfd2Y"></script>
-    <?php
+    include get_template_directory() . '/resources/views/partials/snippets/fbsdk.js';
 }, 100);
 
 // Add 
