@@ -140,4 +140,5 @@ add_action('wp_body_open', function () {
 // Add Code to head
 add_action('wp_head', function () {
     include get_template_directory() . '/resources/views/partials/snippets/gtag.js';
+    include get_template_directory() . '/resources/views/partials/snippets/gconsoleverif.php';
 }, 100);
