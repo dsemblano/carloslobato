@@ -8,7 +8,7 @@
   <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php (WP_ENV !== 'production') ? body_class('debug-screens') : body_class(''); ?>>
   <?php wp_body_open(); ?>
   <?php do_action('get_header'); ?>
 

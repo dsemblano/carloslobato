@@ -18,15 +18,16 @@
     "translate:mo": "wp i18n make-mo ./resources/lang ./resources/lang"
   },
   "devDependencies": {
-    "@roots/bud": "5.7.7",
-    "@roots/bud-postcss": "^5.7.7",
-    "@roots/bud-sass": "^5.7.7",
-    "@roots/bud-tailwindcss": "5.7.7",
-    "@roots/sage": "5.7.7",
+    "@roots/bud": "5.8.7",
+    "@roots/bud-postcss": "^5.8.7",
+    "@roots/bud-sass": "^5.8.7",
+    "@roots/bud-tailwindcss": "5.8.7",
+    "@roots/sage": "5.8.7",
     "@tailwindcss/typography": "^0.5.2"
   },
   "dependencies": {
     "flickity": "^3.0.0",
-    "flowbite": "^1.4.5"
+    "flowbite": "^1.4.5",
+    "tailwindcss-debug-screens": "^2.2.1"
   }
 }
