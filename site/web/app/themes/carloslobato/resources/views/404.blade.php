@@ -7,7 +7,8 @@
     <x-alert type="warning">
       {!! __('Página não encontrada! Desculpe, mas a página que você está tentando ver não existe.', 'sage') !!}
     </x-alert>
-
-    {!! get_search_form(false) !!}
+    <div class="my-6">
+      {!! get_search_form(false) !!}
+    </div>
   @endif
 @endsection
