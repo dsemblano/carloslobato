@@ -19,7 +19,7 @@
             </path>
         </svg>
     </a>
-    <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.instagram.com/carloslobatooficial/"
+    <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.instagram.com/carloslobatto/"
         target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fab"
             data-icon="instagram"
             class="fill-current svg-inline--fa fa-instagram fa-w-14 text-palette-primary w-6 inline-flex transform hover:scale-110 ease-in duration-150"
