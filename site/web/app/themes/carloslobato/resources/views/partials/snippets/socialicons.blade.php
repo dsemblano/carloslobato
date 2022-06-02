@@ -1,6 +1,7 @@
 <span class="space-x-4 mb-4 fill-current">
     <a class="appearance-none" type="button" aria-label="social-icon" href="https://twitter.com/_carloslobato"
-        target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fab"
+        target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" focusable="false" data-prefix="fab"
             data-icon="twitter"
             class="fill-current svg-inline--fa fa-twitter fa-w-16 text-palette-primary w-6 inline-flex transform hover:scale-110 ease-in duration-150"
             role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -10,7 +11,8 @@
         </svg>
     </a>
     <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.facebook.com/carloslobatooficial"
-        target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fab"
+        target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" focusable="false" data-prefix="fab"
             data-icon="facebook"
             class="fill-current svg-inline--fa fa-facebook fa-w-16 text-palette-primary w-6 inline-flex transform hover:scale-110 ease-in duration-150"
             role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -20,7 +22,8 @@
         </svg>
     </a>
     <a class="appearance-none" type="button" aria-label="social-icon" href="https://www.instagram.com/carloslobatto/"
-        target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" focusable="false" data-prefix="fab"
+        target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" focusable="false" data-prefix="fab"
             data-icon="instagram"
             class="fill-current svg-inline--fa fa-instagram fa-w-14 text-palette-primary w-6 inline-flex transform hover:scale-110 ease-in duration-150"
             role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
