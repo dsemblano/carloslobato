@@ -1,5 +1,5 @@
 <header class="banner bg-white fixed top-0 w-full z-50">
-  <nav class="nav-primary container px-2 sm:px-4 py-2.5">
+  <nav class="nav-primary container py-2">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a class="brand flex items-center" href="{{ home_url('/') }}">
         {{-- {!! $siteName !!} --}}
