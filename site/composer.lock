@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1868995d82a76cd3cde044168dc6f113",
+    "content-hash": "43a93957118615dbb5e1ef29686003d7",
     "packages": [
         {
             "name": "brick/math",
@@ -4849,6 +4849,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/loco-translate/"
+        },
+        {
+            "name": "wpackagist-plugin/photo-gallery",
+            "version": "1.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/photo-gallery/",
+                "reference": "tags/1.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/photo-gallery.1.6.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/photo-gallery/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
