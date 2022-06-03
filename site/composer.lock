@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72fd25957414ff7a6649f36cfdfebcc5",
+    "content-hash": "5a4d8ccad924f1883509d657668565dd",
     "packages": [
         {
             "name": "brick/math",
@@ -4815,24 +4815,6 @@
             "homepage": "https://wordpress.org/plugins/automatic-translator-addon-for-loco-translate/"
         },
         {
-            "name": "wpackagist-plugin/block-context",
-            "version": "0.1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/block-context/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-context.zip?timestamp=1620373994"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/block-context/"
-        },
-        {
             "name": "wpackagist-plugin/contact-form-7",
             "version": "5.5.6.1",
             "source": {
@@ -4849,60 +4831,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
-        },
-        {
-            "name": "wpackagist-plugin/default-featured-image",
-            "version": "1.7.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/default-featured-image/",
-                "reference": "tags/1.7.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/default-featured-image.1.7.2.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/default-featured-image/"
-        },
-        {
-            "name": "wpackagist-plugin/fakerpress",
-            "version": "0.5.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/fakerpress/",
-                "reference": "tags/0.5.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fakerpress.0.5.3.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/fakerpress/"
-        },
-        {
-            "name": "wpackagist-plugin/instagram-feed",
-            "version": "6.0.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/instagram-feed/",
-                "reference": "tags/6.0.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instagram-feed.6.0.5.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/instagram-feed/"
         },
         {
             "name": "wpackagist-plugin/loco-translate",
@@ -4939,24 +4867,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
-        },
-        {
-            "name": "wpackagist-plugin/shareaholic",
-            "version": "9.7.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/shareaholic/",
-                "reference": "tags/9.7.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shareaholic.9.7.5.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/shareaholic/"
         },
         {
             "name": "wpackagist-plugin/social-pug",
