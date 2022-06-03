@@ -4,12 +4,12 @@
 wordpress_sites:
   carloslobato.com.br:
     site_hosts:
-    - canonical: carloslobato.com.br
+    - canonical: staging.carloslobato.com.br
       redirects:
-      - www.carloslobato.com.br
+      - www.staging.carloslobato.com.br
     local_path: ../site
     branch: master
-    repo: git@github.com:example/example.com.git
+    repo: git@github.com:dsemblano/carloslobato.git
     repo_subtree_path: site
     multisite:
       enabled: false
