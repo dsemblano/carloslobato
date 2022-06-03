@@ -33,6 +33,14 @@ header nav {
 .menu-menu-principal-container {
   ul {
     background-color: white;
+    .has-children {
+      color: red;
+      cursor:pointer;
+      &.open {
+        .submenu {
+          display:block;
+        }
+      }
     ul {
       background-color: inherit;
       display: none;
