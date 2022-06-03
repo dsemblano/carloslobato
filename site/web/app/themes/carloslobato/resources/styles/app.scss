@@ -32,7 +32,6 @@ header nav {
 
 .menu-menu-principal-container {
   ul {
-    @apply text-2xl;
  
     ul {
       display: none;
@@ -60,6 +59,7 @@ header nav {
       display: block;
       visibility: visible;
       opacity: 1;
+      background-color: inherit;
     }
   }
  
