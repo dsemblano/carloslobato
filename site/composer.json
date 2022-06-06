@@ -52,6 +52,7 @@
     "wpackagist-theme/twentytwentytwo": "^1.2",
     "wpackagist-plugin/photo-gallery":">=1.6.5",
     "wpackagist-plugin/mobile-menu":">=2.8.1.8",
+    "wpackagist-plugin/redirection":">=5.2.3",
     "roots/acorn": "^2.0"
   },
   "require-dev": {
