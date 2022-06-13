@@ -145,8 +145,6 @@ add_action('wp_head', function () {
     include get_template_directory() . '/resources/views/partials/snippets/gtagbody.js';
     include get_template_directory() . '/resources/views/partials/snippets/gtaghead.js';
 }, 100);
-}, 100);
-}, 100);
 
 // Remove svg duotone
 add_action('after_setup_theme', function () {
