@@ -176,6 +176,7 @@ figure.wp-block-video {
 p.dpsp-share-text:first-of-type {
   display: none;
 }
+}
 
 @media print {
 
@@ -197,7 +198,7 @@ p.dpsp-share-text:first-of-type {
   .page-header,
   .author,
   ul,
-  blockquote, {
+  blockquote {
     margin: 0;
   }
 
