@@ -39,6 +39,14 @@
   }
 }
 
+%shadowSmooth {
+  box-shadow:0 5px 4px rgb(0 0 0 / 10%);
+}
+
+// body {
+//   @apply bg-pros90gray;
+// }
+
 // Menu
 .banner {
   box-shadow:0 0 21px 0 rgb(0 0 0 / 30%);
@@ -145,50 +153,17 @@
 
     input,
     textarea {
-      @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+      @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
     }
 
     .wpcf7-submit {
-      @apply text-white bg-pros90blue hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+      @apply text-white bg-pros90blue hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
     }
 
     .wpcf7-response-output {
       @apply bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3;
     }
   }
-
-  .article-posts {
-    img {
-      @extend %imgeffect;
-    }
-
-    &:hover img {
-      @extend %hoverimgeffect;
-    }
-  }
-
-  // .comment-form,
-  // .wpcf7-form {
-  //   textarea {
-  //     @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full xl:w-2/4 sm:text-sm border border-gray-300 rounded-md;
-  //   }
-
-  //   .comment-form-author,
-  //   .comment-form-email,
-  //   .search-form,
-  //   .wpcf7-form-control-wrap {
-  //     input {
-  //       @apply mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full xl:w-2/4 shadow-sm sm:text-sm border-gray-300 rounded-md;
-  //     }
-  //   }
-  // }
-
-  // .btn,
-  // .search-form button,
-  // .wpcf7-submit {
-  //   @apply bg-blue-500 hover:bg-blue-700 hover:cursor-pointer text-white font-bold py-2 px-4 rounded;
-
-  // }
 
   // video inside block
 
@@ -203,6 +178,30 @@
   }
 }
 
+// Facebook box
+section.social.block {
+  margin-bottom: 3rem;
+}
+
+// Instagram
+.wdi_feed_main_container {
+  margin-top: 4rem;
+}
+
+.wdi_feed_container {
+  @extend %shadowSmooth;
+}
+
+// Articles
+.article-posts .box {
+  @extend %shadowSmooth;
+  @extend %imgeffect;
+
+  &:hover {
+    @extend %hoverimgeffect;
+  }
+}
+
 // Form
 .comment-form textarea,
 .comment-form input:not(.btn),
@@ -212,7 +211,7 @@
 
 input.btn,
 .wpcf7-submit {
-  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+  @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
 }
 
 // Links
@@ -249,6 +248,31 @@ input.btn,
     }
   }
 }
+
+// Widgets
+.widget_block {
+  h3 {
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .wp-widget-group__inner-blocks {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  
+    .wp-block-group {
+      margin-bottom: 1rem;
+  
+      h4 {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
 
 @media print {
 
@@ -319,7 +343,7 @@ input.btn,
 
   h1:before {
     display:block;
-    content:"Obrigado por imprimir nosso conteúdo em carloslobato.com.br!";
+    content:"Obrigado por imprimir nosso conteúdo! pros90amapa.org.br";
     margin-bottom:10px;
     font-size:10pt;
     padding:3px 5px;
