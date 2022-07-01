@@ -1,4 +1,4 @@
-<section id="section1" class="flex flex-col lg:flex-row justify-between items-start bg-white">
+<section id="section1" class="flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white">
   <!--Left Col-->
   <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left">
     <h1 class="mb-4 uppercase text-7xl lg:text-9xl font-bold">Carlos Lobato</h1>
@@ -14,6 +14,7 @@
       </p>
       @include('partials/snippets.socialicons')
       @include('partials/snippets.fblikeshare')
+      @include('partials/snippets.facebook')
     </article>
   </div>
     <!--Right Col desktop -->
@@ -24,6 +25,3 @@
   </div>
   <!--Right Col mobile -->
 </section>
-<div>
-  @include('partials/snippets.facebook')
-</div>
