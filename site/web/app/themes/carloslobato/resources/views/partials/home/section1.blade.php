@@ -5,7 +5,7 @@
     <img class="block lg:hidden rounded-tl-extraLarge rounded-br-extraLarge" src="@asset('images/perfil.jpg')" />
     <article class="mt-8 mb-8">
       <p class="leading-normal text-xl mb-8">
-        Pré-candidato a Deputado Estadual pelo <a class="underline" href="https://pros90amapa.org.br">PROS Amapá</a>, advogado, psicólogo, sociólogo, jornalista e ex âncora do Tribuna da Cidade na 101 FM
+        Pré-candidato a Deputado Estadual pelo <a class="underline" target="_blank" href="https://pros90amapa.org.br">PROS Amapá</a>, advogado, psicólogo, sociólogo, jornalista e ex âncora do Tribuna da Cidade na 101 FM
       </p>
       <p class="leading-normal text-xl mb-8">
         Nascido em Macapá, no dia 16 de novembro de 1956, Carlos Lobato aprendeu desde cedo o valor de boas escolhas. Dedicado
