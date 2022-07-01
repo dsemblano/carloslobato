@@ -48,6 +48,7 @@
 // }
 
 // Menu
+
 .banner {
   box-shadow:0 0 21px 0 rgb(0 0 0 / 30%);
 
@@ -58,125 +59,134 @@
       li {
         @apply mr-3;
 
+        // doação button
+        &.btn-doacao {
+          @apply bg-blue-700  text-white font-bold py-2 px-4 rounded;
+
+          &:hover {
+            @apply hover:bg-blue-500;
+          }
+        }
+
         a {
-          @apply inline-block py-2 px-4 text-black font-bold no-underline;
+          @apply inline-block py-2 px-4 font-bold no-underline;
         }
       }
     }
   }
 }
 
-.menu-menu-principal-container {
-  ul {
-    background-color:white;
+// .menu-menu-principal-container {
+//   ul {
+//     background-color:white;
 
-    .has-children {
-      color:red;
-      cursor:pointer;
+//     .has-children {
+//       color:red;
+//       cursor:pointer;
 
-      &.open {
-        .submenu {
-          display:block;
-        }
-      }
+//       &.open {
+//         .submenu {
+//           display:block;
+//         }
+//       }
 
-      ul {
-        background-color:inherit;
-        display:none;
-        position:absolute;
-        top:2em;
-        left:0;
-        z-index:99999;
-        visibility:hidden;
-        opacity:0;
-        min-width:5rem;
-        // transition:all 0.5s ease;
-        // margin-top:1rem;
-        // width:180px;
-        // box-shadow:0 3px 3px rgba(0, 0, 0, 0.2);
-      }
+//       ul {
+//         background-color:inherit;
+//         display:none;
+//         position:absolute;
+//         top:2em;
+//         left:0;
+//         z-index:99999;
+//         visibility:hidden;
+//         opacity:0;
+//         min-width:5rem;
+//         // transition:all 0.5s ease;
+//         // margin-top:1rem;
+//         // width:180px;
+//         // box-shadow:0 3px 3px rgba(0, 0, 0, 0.2);
+//       }
 
-      li>a:not(:last-child)::after {
-        content:" ▾";
-      }
+//       li>a:not(:last-child)::after {
+//         content:" ▾";
+//       }
 
-      li:hover>ul,
-      li:focus-within>ul,
-      li ul:hover,
-      li ul:focus {
-        box-shadow:0px 11px 14px -12px rgba(0, 0, 0, 0.75);
-        display:block;
-        visibility:visible;
-        opacity:1;
-        background-color:inherit;
-      }
-    }
+//       li:hover>ul,
+//       li:focus-within>ul,
+//       li ul:hover,
+//       li ul:focus {
+//         box-shadow:0px 11px 14px -12px rgba(0, 0, 0, 0.75);
+//         display:block;
+//         visibility:visible;
+//         opacity:1;
+//         background-color:inherit;
+//       }
+//     }
 
-    li {
-      background-color:inherit;
-      position:relative;
-      // transition-duration:0.5s;
+//     li {
+//       background-color:inherit;
+//       position:relative;
+//       // transition-duration:0.5s;
 
-      ul li {
-        clear:both;
-        width:100%;
-      }
+//       ul li {
+//         clear:both;
+//         width:100%;
+//       }
 
-      &:focus-within a {
-        outline:none;
-      }
+//       &:focus-within a {
+//         outline:none;
+//       }
 
-      &:hover,
-      &:focus-within {
-        font-weight:bold;
-        cursor:pointer;
-      }
-    }
-  }
+//       &:hover,
+//       &:focus-within {
+//         font-weight:bold;
+//         cursor:pointer;
+//       }
+//     }
+//   }
 
-  .busca {
-    z-index:9999;
-  }
+//   .busca {
+//     z-index:9999;
+//   }
 
-  .wp-block-contact-form-7-contact-form-selector {
-    display:none;
-  }
+//   .wp-block-contact-form-7-contact-form-selector {
+//     display:none;
+//   }
 
-  .wp-block-contact-form-7-contact-form-selector {
-    @apply container mx-auto flex;
+//   .wp-block-contact-form-7-contact-form-selector {
+//     @apply container mx-auto flex;
 
-    display:block;
+//     display:block;
 
-    label {
-      @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
-    }
+//     label {
+//       @apply block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300;
+//     }
 
-    input,
-    textarea {
-      @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
-    }
+//     input,
+//     textarea {
+//       @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+//     }
 
-    .wpcf7-submit {
-      @apply text-white bg-pros90blue hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
-    }
+//     .wpcf7-submit {
+//       @apply text-white bg-pros90blue hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium  text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800;
+//     }
 
-    .wpcf7-response-output {
-      @apply bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3;
-    }
-  }
+//     .wpcf7-response-output {
+//       @apply bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3;
+//     }
+//   }
 
-  // video inside block
+//   // video inside block
 
-  figure.wp-block-video {
-    @apply xl:w-3/5;
+//   figure.wp-block-video {
+//     @apply xl:w-3/5;
 
-  }
+//   }
 
-  // display none para primeira ocorrencia do plugin social share
-  p.dpsp-share-text:first-of-type {
-    display:none;
-  }
-}
+//   // display none para primeira ocorrencia do plugin social share
+//   p.dpsp-share-text:first-of-type {
+//     display:none;
+//   }
+// }
 
 // Facebook box
 section.social.block {
