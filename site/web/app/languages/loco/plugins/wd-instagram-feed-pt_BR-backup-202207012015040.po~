@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 10Web Social Photo Feed\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-20 14:48+0000\n"
-"PO-Revision-Date: 2022-07-01 20:15+0000\n"
+"PO-Revision-Date: 2022-07-01 20:14+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -438,7 +438,7 @@ msgstr ""
 
 #: framework/WDILibrary.php:1278 frontend/shortcode.php:243
 msgid "Follow"
-msgstr "Siga-nos no Instagram!"
+msgstr "Siganos no Instagram!"
 
 #: admin/views/feeds.php:506
 msgid "Full Width Caption"
