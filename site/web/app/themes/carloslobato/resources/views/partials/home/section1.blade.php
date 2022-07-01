@@ -15,7 +15,7 @@
     </article>
   </div>
     <!--Right Col desktop -->
-  <div class="social hidden lg:block w-full bg-yellow-400">
+  <div class="social hidden lg:block w-full">
     <img class="z-50 hidden lg:block rounded-tl-extraLarge rounded-br-extraLarge" src="@asset('images/perfil.jpg')" />
     {{-- <h2>Entre em contato</h2>
     @php(dynamic_sidebar('textos-primary')) --}}
