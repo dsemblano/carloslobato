@@ -1,4 +1,4 @@
-<footer class="content-info bg-pros90orange mt-7 py-4 px-10">
+<footer class="content-info bg-pros90blue mt-7 py-4 px-10">
   <div class="text-center text-white fill-white">
     @include('partials/snippets.whatsapp')
   </div>
