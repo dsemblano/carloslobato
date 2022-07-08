@@ -9,6 +9,7 @@ module.exports = {
         pros90orange: '#F6913A',
         // pros90blue: '#357CBF',
         pros90blue: '#001D3D',
+        pros90lightblue: '#263C76',
         pros90gray: '#F4F4F4',
       },
       borderRadius: {
