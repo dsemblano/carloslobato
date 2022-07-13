@@ -473,8 +473,9 @@ ul.wp-block-social-links {
 } 
 
 // Shareaholic
-.shr-recommendations-attribution-container {
-  display: none;
+.shr-recommendations-attribution-container,
+.shareaholic-logo {
+  display: none !important;
 }
 
 .shareaholic-share-buttons-container {
