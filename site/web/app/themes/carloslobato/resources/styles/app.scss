@@ -486,10 +486,10 @@ ul.wp-block-social-links {
 }
 
 .shareaholic-recommendation-article-details {
-  @apply pros90lightblue;
+  @apply pros90lightblue !important;
 
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 
 // Página notícias
