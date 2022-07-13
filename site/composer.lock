@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fb89b69cdf03bfa4ba3cd239c9203d1",
+    "content-hash": "1de152389b0256bb200faa843b2a5029",
     "packages": [
         {
             "name": "brick/math",
@@ -4920,24 +4920,6 @@
             "homepage": "https://wordpress.org/plugins/loco-translate/"
         },
         {
-            "name": "wpackagist-plugin/mobile-menu",
-            "version": "2.8.2.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/mobile-menu/",
-                "reference": "tags/2.8.2.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mobile-menu.2.8.2.7.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mobile-menu/"
-        },
-        {
             "name": "wpackagist-plugin/photo-gallery",
             "version": "1.6.10",
             "source": {
@@ -5008,24 +4990,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shareaholic/"
-        },
-        {
-            "name": "wpackagist-plugin/social-pug",
-            "version": "1.20.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/social-pug/",
-                "reference": "tags/1.20.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-pug.1.20.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/social-pug/"
         },
         {
             "name": "wpackagist-plugin/wayfinder",
