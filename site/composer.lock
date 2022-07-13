@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb8cff0ec5bfb7b4bbb1c364a8f05c8c",
+    "content-hash": "9fb89b69cdf03bfa4ba3cd239c9203d1",
     "packages": [
         {
             "name": "brick/math",
@@ -365,7 +365,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -418,7 +418,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -478,7 +478,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -532,7 +532,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -580,7 +580,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -640,7 +640,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -691,7 +691,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -739,7 +739,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -794,7 +794,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -856,7 +856,7 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
@@ -914,7 +914,7 @@
         },
         {
             "name": "illuminate/log",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/log.git",
@@ -963,7 +963,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1009,7 +1009,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1057,7 +1057,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -1113,7 +1113,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1181,7 +1181,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v8.83.18",
+            "version": "v8.83.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -2368,16 +2368,16 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.0",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
-                "reference": "dd8ece73954fd90f891d98fa5c2c5ace000fe50d"
+                "reference": "41ff6e23ccbc3a1691406d69fe8c211a225514e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/wordpress/zipball/dd8ece73954fd90f891d98fa5c2c5ace000fe50d",
-                "reference": "dd8ece73954fd90f891d98fa5c2c5ace000fe50d",
+                "url": "https://api.github.com/repos/roots/wordpress/zipball/41ff6e23ccbc3a1691406d69fe8c211a225514e2",
+                "reference": "41ff6e23ccbc3a1691406d69fe8c211a225514e2",
                 "shasum": ""
             },
             "require": {
@@ -2386,10 +2386,20 @@
             },
             "type": "metapackage",
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-2.0-or-later"
+            ],
             "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+            "homepage": "https://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.0"
+                "source": "https://github.com/roots/wordpress/tree/6.0.1"
             },
             "funding": [
                 {
@@ -2401,7 +2411,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-05-23T20:05:44+00:00"
+            "time": "2022-06-01T16:54:37+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -2476,22 +2486,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.0",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/roots/wordpress-no-content.git",
-                "reference": "e835336a33b10ce4d738e75668ecd4bc480550ef"
+                "url": "https://github.com/WordPress/WordPress.git",
+                "reference": "6.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.0-no-content.zip",
-                "shasum": "6cc5252995f7a7c6060216286ddaacba445acd61"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.0.1-no-content.zip",
+                "shasum": "bd78fc2bea7f04683218c679f9e6b606eedf23bc"
             },
             "require": {
                 "php": ">= 5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.0"
+                "wordpress/core-implementation": "6.0.1"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2542,7 +2552,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2022-05-24T19:14:34+00:00"
+            "time": "2022-07-12T16:30:11+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -5115,12 +5125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "2a1896038681217c0ee6363cb472aad856396eea"
+                "reference": "142c350dd23588666546a92de0d4cd4cafdad2c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/2a1896038681217c0ee6363cb472aad856396eea",
-                "reference": "2a1896038681217c0ee6363cb472aad856396eea",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/142c350dd23588666546a92de0d4cd4cafdad2c5",
+                "reference": "142c350dd23588666546a92de0d4cd4cafdad2c5",
                 "shasum": ""
             },
             "conflict": {
@@ -5182,7 +5192,7 @@
                 "contao/managed-edition": "<=1.5",
                 "craftcms/cms": "<3.7.36",
                 "croogo/croogo": "<3.0.7",
-                "cuyz/valinor": ">=0.5,<0.7",
+                "cuyz/valinor": "<0.12",
                 "czproject/git-php": "<4.0.3",
                 "darylldoyle/safe-svg": "<1.9.10",
                 "datadog/dd-trace": ">=0.30,<0.30.2",
@@ -5507,7 +5517,7 @@
                 "thinkcmf/thinkcmf": "<=5.1.7",
                 "tinymce/tinymce": "<5.10",
                 "titon/framework": ">=0,<9.9.99",
-                "topthink/framework": "<6.0.12",
+                "topthink/framework": "<=6.0.12",
                 "topthink/think": "<=6.0.9",
                 "topthink/thinkphp": "<=3.2.3",
                 "tribalsystems/zenario": "<9.2.55826",
@@ -5614,7 +5624,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-12T11:07:36+00:00"
+            "time": "2022-07-12T23:04:17+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
