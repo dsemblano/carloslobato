@@ -485,10 +485,9 @@ ul.wp-block-social-links {
   padding-top: 1.5rem;
 }
 
-.shareaholic-recommendations-container .shareaholic-recommendations .shareaholic-recommendation .shareaholic-recommendation-article-link .shareaholic-recommendation-article-title {
-  @apply pros90lightblue !important;
-
+.shareaholic-recommendation-article-title {
   text-decoration: none;
+  color: #263C76;
   font-size: 1rem !important;
 }
 
