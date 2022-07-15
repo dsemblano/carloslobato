@@ -22,3 +22,32 @@ add_filter( 'comment_form_default_fields', function($fields) {
     unset($fields['url']);
     return $fields;
 });
+
+/**
+* Hook to the the content filter to modify/improve the output content * and hotfix some bugs which are present in Gutenberg
+*/
+add_filter('the_content', static function( string $content ) : string {
+
+$replace = [
+'noreferrer' => '',
+'noreferrer' => ''
+];
+
+$content = strtr($content, $replace);
+return $content;
+});
+
+// default target _blank
+function default_target_blank() {
+ 
+    ?>
+    <script>
+        jQuery(document).on( 'wplink-open', function( wrap ) {
+            if ( jQuery( 'input#wp-link-url' ).val() <= 0 )
+                jQuery( 'input#wp-link-target' ).prop('checked', true );
+        });
+    </script>
+    <?php
+}
+add_action( 'admin_footer-post-new.php', 'default_target_blank', 10, 0 );
+add_action( 'admin_footer-post.php', 'default_target_blank', 10, 0 );
