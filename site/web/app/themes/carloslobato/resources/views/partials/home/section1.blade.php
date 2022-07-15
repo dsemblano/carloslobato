@@ -8,7 +8,7 @@
         Pré-candidato a Deputado Estadual pelo <a class="underline" target="_blank" href="https://pros90amapa.org.br">PROS Amapá</a> (<a class="underline" target="_blank" href="https://pros90amapa.org.br"> https://pros90amapa.org.br )</a> , advogado, psicólogo, sociólogo, jornalista e ex âncora do Tribuna da Cidade na 101 FM
       </p>
       <p class="leading-normal text-xl mb-8">
-        Nascido em Macapá, no dia 16 de novembro de 1956, Carlos Lobato aprendeu desde cedo o valor de boas escolhas. Dedicado
+        Carlos Alberto Lobato Lima, nascido em Macapá, no dia 16 de novembro de 1956, Carlos Lobato aprendeu desde cedo o valor de boas escolhas. Dedicado
         aos estudos, o menino pobre, que vendeu sacolas no Mercado Central, cresceu e passou em 22 vestibulares. Venceu na
         vida, tornou-se psicólogo, sociólogo, advogado e jornalista.
       </p>
