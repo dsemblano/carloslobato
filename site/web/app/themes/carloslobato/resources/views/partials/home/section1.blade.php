@@ -3,7 +3,7 @@
   <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animated animatedFadeInUp fadeInUp">
     <h1 class="mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90lightblue">Carlos Lobato</h1>
     <img class="block lg:hidden rounded-tl-extraLarge rounded-br-extraLarge" src="@asset('images/perfil.jpg')" />
-    <article class="mt-8 mb-8">
+    <article class="mt-8 mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
       <p class="leading-normal text-xl mb-8">
         Pré-candidato a Deputado Estadual pelo <a class="underline" target="_blank" href="https://pros90amapa.org.br">PROS Amapá</a>, advogado, psicólogo, sociólogo, jornalista e ex-âncora do Tribuna da Cidade na 101 FM.
       </p>
