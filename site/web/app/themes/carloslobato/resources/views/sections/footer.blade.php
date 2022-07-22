@@ -4,7 +4,6 @@
   </div>
   <div class="text-center text-white fill-white my-2">    
     @include('partials/snippets.socialicons')
-    <br>
     <div class="text-center text-white fill-white mt-2">
       Carlos Lobato © Todos os direitos reservados. {{ date('Y') }}
     </div>
