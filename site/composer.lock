@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26928cb28bc8f2f956adb1aedfc1bfe0",
+    "content-hash": "3319f09431e89f4f508d3022ed04a498",
     "packages": [
         {
             "name": "brick/math",
@@ -365,7 +365,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -418,7 +418,7 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
@@ -478,7 +478,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -532,7 +532,7 @@
         },
         {
             "name": "illuminate/config",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -580,7 +580,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -640,7 +640,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -691,7 +691,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -739,7 +739,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -794,7 +794,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -856,7 +856,7 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
@@ -914,7 +914,7 @@
         },
         {
             "name": "illuminate/log",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/log.git",
@@ -963,7 +963,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1009,7 +1009,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -1057,7 +1057,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -1113,7 +1113,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -1181,7 +1181,7 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v8.83.20",
+            "version": "v8.83.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -1385,16 +1385,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "5579edf28aee1190a798bfa5be8bc16c563bd524"
+                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5579edf28aee1190a798bfa5be8bc16c563bd524",
-                "reference": "5579edf28aee1190a798bfa5be8bc16c563bd524",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
+                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
                 "shasum": ""
             },
             "require": {
@@ -1414,11 +1414,10 @@
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
-                "php-console/php-console": "^3.1.3",
                 "phpspec/prophecy": "^1.15",
                 "phpstan/phpstan": "^0.12.91",
                 "phpunit/phpunit": "^8.5.14",
-                "predis/predis": "^1.1",
+                "predis/predis": "^1.1 || ^2.0",
                 "rollbar/rollbar": "^1.3 || ^2 || ^3",
                 "ruflin/elastica": "^7",
                 "swiftmailer/swiftmailer": "^5.3|^6.0",
@@ -1438,7 +1437,6 @@
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
                 "mongodb/mongodb": "Allow sending log messages to a MongoDB server (via library)",
                 "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
-                "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
@@ -1473,7 +1471,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.7.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
             },
             "funding": [
                 {
@@ -1485,7 +1483,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-09T08:59:12+00:00"
+            "time": "2022-07-24T11:55:47+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -4902,6 +4900,24 @@
             "homepage": "https://wordpress.org/plugins/flexy-breadcrumb/"
         },
         {
+            "name": "wpackagist-plugin/instagram-feed",
+            "version": "6.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/instagram-feed/",
+                "reference": "tags/6.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.6.0.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/instagram-feed/"
+        },
+        {
             "name": "wpackagist-plugin/loco-translate",
             "version": "2.6.2",
             "source": {
@@ -5107,12 +5123,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "0144c1225b5e4da02cf2c27a0e2cb2705168c47c"
+                "reference": "4bc2609bf9e2c2146d25465546bb10651cce47ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0144c1225b5e4da02cf2c27a0e2cb2705168c47c",
-                "reference": "0144c1225b5e4da02cf2c27a0e2cb2705168c47c",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4bc2609bf9e2c2146d25465546bb10651cce47ac",
+                "reference": "4bc2609bf9e2c2146d25465546bb10651cce47ac",
                 "shasum": ""
             },
             "conflict": {
@@ -5274,6 +5290,7 @@
                 "in2code/femanager": "<5.5.1|>=6,<6.3.1",
                 "in2code/lux": "<17.6.1|>=18,<24.0.2",
                 "intelliants/subrion": "<=4.2.1",
+                "islandora/islandora": ">=2,<2.4.1",
                 "ivankristianto/phpwhois": "<=4.3",
                 "jackalope/jackalope-doctrine-dbal": "<1.7.4",
                 "james-heinrich/getid3": "<1.9.21",
@@ -5440,7 +5457,7 @@
                 "simplito/elliptic-php": "<1.0.6",
                 "slim/slim": "<2.6",
                 "smarty/smarty": "<3.1.45|>=4,<4.1.1",
-                "snipe/snipe-it": "<5.4.4|>= 6.0.0-RC-1, <= 6.0.0-RC-5",
+                "snipe/snipe-it": "<=6.0.2|>= 6.0.0-RC-1, <= 6.0.0-RC-5",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
                 "spipu/html2pdf": "<5.2.4",
@@ -5531,6 +5548,7 @@
                 "wikimedia/parsoid": "<0.12.2",
                 "willdurand/js-translation-bundle": "<2.1.1",
                 "wintercms/winter": "<1.0.475|>=1.1,<1.1.9",
+                "woocommerce/woocommerce": "<6.6",
                 "wp-cli/wp-cli": "<2.5",
                 "wp-graphql/wp-graphql": "<0.3.5",
                 "wpanel/wpanel4-cms": "<=4.3.1",
@@ -5610,7 +5628,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-15T22:04:13+00:00"
+            "time": "2022-07-21T23:04:29+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
