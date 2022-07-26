@@ -1,4 +1,4 @@
-<div class="space-x-8 fill-current">
+<div class="space-x-8 fill-current my-6">
     <a class="appearance-none" type="button" aria-label="social-icon" href="https://twitter.com/_carloslobato"
         target="_blank" rel="noopener noreferrer">
         <svg aria-hidden="true" focusable="false" data-prefix="fab"

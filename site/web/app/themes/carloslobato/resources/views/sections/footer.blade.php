@@ -2,9 +2,9 @@
   <div class="text-center text-white fill-white">
     @include('partials/snippets.whatsapp')
   </div>
-  <div class="text-center text-white fill-white my-2">    
+  <div class="text-center text-white fill-white">    
     @include('partials/snippets.socialicons')
-    <div class="text-center text-white fill-white mt-2">
+    <div class="text-center text-white fill-white">
       Carlos Lobato © Todos os direitos reservados. {{ date('Y') }}
     </div>
   </div>
