@@ -18,7 +18,7 @@
     
       @include('partials.entry-meta')
       </header>
-      <div class="entry-summary">
+      <div class="entry-summary p-6">
         @php(the_excerpt())
       </div>
   </div>
