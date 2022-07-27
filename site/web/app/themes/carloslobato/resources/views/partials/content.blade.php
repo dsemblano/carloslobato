@@ -19,7 +19,7 @@
       @include('partials.entry-meta')
       </header>
         <?php
-          //echo '<p class="leading-relaxed text-base text-gray-600 mt-2">' . get_the_excerpt() . '</p>'; 
+          '<p class="leading-relaxed text-base text-gray-600 mt-2">' . get_the_excerpt() . '</p>'; 
         ?>
   </div>
 </article>
