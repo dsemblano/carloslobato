@@ -19,7 +19,7 @@
                         @endif
                     </a>
                 </figure>
-                <header class="p-6">
+                <header class="px-6">
                     <h2 class="text-2xl text-gray-900 font-medium title-font mb-2">
                         <a href="{{ get_permalink() }}">
                             <?php the_title(); ?>
