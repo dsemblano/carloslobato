@@ -343,6 +343,10 @@ input.btn,
 //   background: url("../images/cover.jpg") no-repeat;
 // }
 
+#qlwapp.qlwapp-bottom-left, #qlwapp.qlwapp-bottom-right {
+  bottom: 3rem;
+}
+
 @media print {
 
   header nav,
