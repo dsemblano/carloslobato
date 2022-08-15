@@ -22,8 +22,6 @@
     <!--Right Col desktop -->
   <div class="social hidden lg:block w-full pl-48">
     <img class="z-50 hidden lg:block rounded-tl-extraLarge rounded-br-extraLarge" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
-    {{-- <h2>Entre em contato</h2>
-    @php(dynamic_sidebar('textos-primary')) --}}
   </div>
   <!--Right Col mobile -->
 </section>
