@@ -1,8 +1,8 @@
 <section id="section1" class="flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white">
   <!--Left Col-->
   <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animated animatedFadeInUp fadeInUp">
-    <h1 class="mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90lightblue">Carlos Lobato</h1>
-    <h2 class="mb-4 text-3xl lg:text-7xl font-bold"> <span class="text-pros90orange">90</span><span
+    <h1 class="logonumero mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90lightblue">Carlos Lobato</h1>
+    <h2 class="logonumero mb-4 text-3xl lg:text-7xl font-bold"> <span class="text-pros90orange">90</span><span
         class="text-pros90lightblue">000</span></h2>
     <img class="block lg:hidden rounded-tl-extraLarge rounded-br-extraLarge" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
     <article class="mt-8 mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
