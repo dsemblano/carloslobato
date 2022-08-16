@@ -2,6 +2,17 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+// Font Face
+@font-face {
+  font-family: 'rutanblack';
+  src: url('~@fonts/rutan-black-webfont.woff2') format('woff2'),
+      url('~@fonts/rutan-black-webfont.woff') format('woff'),
+      url('~@fonts/rutan-black-webfont.ttf') format('truetype');
+      font-display: swap;
+      font-weight: normal;
+      font-style: normal;
+}
+
 // Variables must reflect tailwind.config.js
 $pros90orange: #F78F22;
 $pros90blue: #1346AC;
@@ -53,6 +64,19 @@ body {
   // @apply bg-pros90gray;
   background-color: white;
 }
+
+// h1
+.logonumero {
+  text-shadow: 2px 2px 2px rgb(150 150 150);
+  font-family: 'rutanblack', sans-serif;
+}
+
+// .numerodeg {
+//   background: #2EAFE6;
+//   background: linear-gradient(to bottom, #2EAFE6 0%, #1346AC 55%);
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// }
 
 // Menu
 .banner {
@@ -174,7 +198,6 @@ body {
 
   // Filiação Form
 .filiacao {
-  background-color: red;
   display: none;
 }
 
@@ -189,11 +212,6 @@ body {
   p.dpsp-share-text:first-of-type {
     display:none;
   }
-}
-
-// H1, H2 home
-.logonumero {
-  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 }
 
 // Facebook box
