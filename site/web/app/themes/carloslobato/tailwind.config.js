@@ -13,7 +13,8 @@ module.exports = {
         pros90gray: '#F4F4F4',
       },
       borderRadius: {
-        extraLarge: '12rem'
+        extraLarge: '12rem',
+        Large: '8rem'
       }
     },
   },

@@ -4,7 +4,7 @@
     <h1 class="logonumero mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90blue">Carlos Lobato</h1>
     <h2 class="logonumero mb-4 text-6xl lg:text-8xl font-bold text-center"> <span class="text-pros90orange">90</span><span
         class="text-pros90blue">000</span></h2>
-    <img class="block lg:hidden rounded-tl-extraLarge rounded-br-extraLarge" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
+    <img class="block lg:hidden rounded-bl-Large rounded-br-Large" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
     <article class="mt-8 mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
       <p class="leading-normal text-xl mb-8">
         Candidato a Deputado Estadual pelo <a class="underline" target="_blank" href="https://pros90amapa.org.br">PROS Amapá</a> <strong>número 90.000 (Noventa Mil)</strong>, advogado, psicólogo, sociólogo, jornalista e ex-âncora do Tribuna da Cidade na 101 FM.
@@ -24,7 +24,7 @@
   </div>
     <!--Right Col desktop -->
   <div class="social hidden lg:block w-full pl-48">
-    <img class="z-50 hidden lg:block rounded-tl-extraLarge rounded-br-extraLarge" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
+    <img class="z-50 hidden lg:block rounded-bl-Large rounded-br-Large" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
   </div>
   <!--Right Col mobile -->
 </section>
