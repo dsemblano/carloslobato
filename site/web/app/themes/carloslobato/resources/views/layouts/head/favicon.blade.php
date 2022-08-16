@@ -3,7 +3,6 @@
 <link rel="icon" type="image/png" sizes="16x16" href="@asset('images/favicon/favicon-16x16.png')">
 <link rel="manifest" href="@asset('images/favicon/site.webmanifest')">
 <meta name="msapplication-config" content="@asset('images/favicon/browserconfig.xml')">
-<link rel="mask-icon" href="@asset('images/favicon/safari-pinned-tab.svg" color="#e2aa9f')">
+<link rel="mask-icon" href="@asset('images/favicon/safari-pinned-tab.svg" color="#5bbad5')">
 <meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
