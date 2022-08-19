@@ -1,11 +1,13 @@
 <section id="section1" class="container px-4 xl:px-0  flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white relative">
   <!--Left Col-->
-  <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animated fadeInUp">
+  <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animate__animated animate__fadeInLeftBig">
     <h1 class="logonumero mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90blue">Carlos Lobato</h1>
     <h2 class="logonumero mb-4 text-6xl lg:text-8xl font-bold text-center"> <span class="text-pros90orange">90</span><span
         class="text-pros90blue">000</span></h2>
-    <img class="block lg:hidden" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
-    <img class="block lg:hidden hrdec" src="@asset('images/hr_brand.png')" alt="linha decorativa">
+    <figure class="animate__animated animate__fadeInUpBig">
+      <img class="block lg:hidden" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
+      <img class="block lg:hidden hrdec" src="@asset('images/hr_brand.png')" alt="linha decorativa">
+    </figure>
     <article class="mt-8 mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
       <p class="leading-normal text-xl mb-8">
         Candidato a Deputado Estadual no Amapá pelo <a class="underline" target="_blank" href="https://pros90amapa.org.br">PROS AP</a> <strong>número 90.000 (Noventa Mil)</strong>, advogado, psicólogo, sociólogo, jornalista e ex-âncora do Tribuna da Cidade na 101 FM.
@@ -21,7 +23,7 @@
     </article>
   </div>
     <!--Right Col desktop -->
-  <div class="social hidden lg:block w-full pl-48 animated  fadeInUp">
+  <div class="social hidden lg:block w-full pl-48 animate__animated animate__fadeInUpBig">
     <img class="z-50 hidden lg:block" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
     <img class="z-50 hidden lg:block hrdec" src="@asset('images/hr_brand.png')" alt="linha decorativa">
   </div>

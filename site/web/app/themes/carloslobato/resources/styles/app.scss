@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "animate.css/animate.css";
 
 // Font Face
 @font-face {
@@ -366,18 +367,18 @@ input.btn,
   }
 }
 
-.animated {
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both
-}
+// .animated {
+//   animation-duration: 1.5s;
+//   animation-fill-mode: both;
+//   -webkit-animation-duration: 1.5s;
+//   -webkit-animation-fill-mode: both
+// }
 
-.fadeInUp {
-  opacity: 0;
-  animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp;
-}
+// .fadeInUp {
+//   opacity: 0;
+//   animation-name: fadeInUp;
+//   -webkit-animation-name: fadeInUp;
+// }
 
 // Footer
 // footer.content-info {

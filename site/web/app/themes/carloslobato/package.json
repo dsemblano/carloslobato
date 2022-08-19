@@ -26,6 +26,7 @@
     "@tailwindcss/typography": "^0.5.2"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "flickity": "^3.0.0",
     "flowbite": "^1.4.5",
     "tailwindcss-debug-screens": "^2.2.1"
