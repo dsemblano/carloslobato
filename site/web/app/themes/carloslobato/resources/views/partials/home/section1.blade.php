@@ -18,9 +18,6 @@
       
       @include('partials/snippets.socialicons')
       @include('partials/snippets.fblikeshare')
-      <div class="fbsnippet mt-8">
-        @include('partials/snippets.facebook')
-      </div>
     </article>
   </div>
     <!--Right Col desktop -->
