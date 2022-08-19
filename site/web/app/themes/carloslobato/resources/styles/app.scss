@@ -101,6 +101,17 @@ body {
   }
 }
 
+.btn-doacao {
+  @apply py-2 px-2 rounded;
+  
+  background-color: $pros90orange !important;
+
+  &:hover,
+  &:active {
+    filter: brightness(0.85);
+  }
+}
+
 .menu-menu-principal-container {
   ul {
     background-color:white;
