@@ -1,6 +1,6 @@
 <section id="section1" class="container px-4 xl:px-0  flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white relative">
   <!--Left Col-->
-  <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animated animatedFadeInUp fadeInUp">
+  <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animated fadeInUp">
     <h1 class="logonumero mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90blue">Carlos Lobato</h1>
     <h2 class="logonumero mb-4 text-6xl lg:text-8xl font-bold text-center"> <span class="text-pros90orange">90</span><span
         class="text-pros90blue">000</span></h2>
@@ -21,7 +21,7 @@
     </article>
   </div>
     <!--Right Col desktop -->
-  <div class="social hidden lg:block w-full pl-48">
+  <div class="social hidden lg:block w-full pl-48 animated  fadeInUp">
     <img class="z-50 hidden lg:block" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
     <img class="z-50 hidden lg:block hrdec" src="@asset('images/hr_brand.png')" alt="linha decorativa">
   </div>
