@@ -1,4 +1,4 @@
-<section id="section1" class="flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white">
+<section id="section1" class="container px-4 xl:px-0  flex flex-col lg:flex-row lg:mt-40 justify-between items-start bg-white relative">
   <!--Left Col-->
   <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animated animatedFadeInUp fadeInUp">
     <h1 class="logonumero mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90blue">Carlos Lobato</h1>
