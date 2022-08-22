@@ -11,10 +11,10 @@
 });
 </script>
 
-<header class="banner bg-white fixed top-0 w-full z-50">
+<header class="banner lg:px-8 bg-white fixed top-0 w-full z-50">
   <nav class="nav-primary container py-2">
     <div class="container flex flex-wrap justify-between items-center mx-auto">
-      <a class="brand flex items-center px-4 xl:px-0" href="{{ home_url('/') }}">
+      <a class="brand flex items-center px-4 " href="{{ home_url('/') }}">
         {{-- {!! $siteName !!} --}}
         <img class="animate__animated animate__headShake" width="225" height="117" alt="Logo Carlos Lobato Deputado Estadual número 90000" src="@asset('images/logo.png')" />
       </a>
