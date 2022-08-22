@@ -592,9 +592,10 @@ ul.wp-block-social-links {
 .shareaholic-recommendation-article-title {
   text-decoration: none;
   font-size: 1rem !important;
-  color: $pros90lightblue !important;
+  color: $pros90blue !important;
 
   &:hover {
+    color: $pros90lightblue !important;
     text-decoration: underline;
     filter: brightness(155%) !important;
   }
