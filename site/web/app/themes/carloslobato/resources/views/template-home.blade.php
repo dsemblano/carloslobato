@@ -8,6 +8,6 @@
     @include('partials/home.section1')
     {{-- {!! do_shortcode('[wdi_feed id="1"]') !!} --}}
     @include('partials/home.lobatovideo')
-    {!! do_shortcode('[instagram-feed feed=1 class="container px-8"]') !!}
+    {!! do_shortcode('[instagram-feed feed=1 class="container px-8 lg:px-16"]') !!}
     {{-- {!! do_shortcode('[contact-form-7 id="20" title="Formulario"]') !!} --}}
 @endsection
