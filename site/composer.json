@@ -59,7 +59,8 @@
     "wpackagist-plugin/instagram-feed":">=6.0.6",
     "wpackagist-plugin/open-external-links-in-a-new-window":">=1.43",
     "wpackagist-plugin/wp-whatsapp-chat":">=6.0.6",
-    "roots/acorn": "^2.0"
+    "wpackagist-plugin/pixelyoursite":">=9.2.0",
+    "roots/acorn": "^2.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",
