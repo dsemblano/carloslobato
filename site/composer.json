@@ -59,6 +59,7 @@
     "wpackagist-plugin/instagram-feed":">=6.0.6",
     "wpackagist-plugin/open-external-links-in-a-new-window":">=1.43",
     "wpackagist-plugin/wp-whatsapp-chat":">=6.0.6",
+    "wpackagist-plugin/wordpress-countdown-widget":">=3.1.9.1",
     "wpackagist-plugin/pixelyoursite":">=9.2.0",
     "roots/acorn": "^2.1"
   },

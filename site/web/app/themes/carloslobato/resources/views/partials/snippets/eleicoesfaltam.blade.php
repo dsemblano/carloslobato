@@ -1,0 +1,1 @@
+{!! do_shortcode('[countdown date="02 October 2022" color="#fff" title="FALTAM" width="250" height="200" event="PARA AS ELEIÇÕES 2022" bgcolor="#001d3d" format="dHMS" hour="07" radius="10"]') !!}

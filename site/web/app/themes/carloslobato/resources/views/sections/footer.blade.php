@@ -11,6 +11,17 @@
       Carlos Lobato © Todos os direitos reservados. {{ date('Y') }}
     </div>
   </div>
+  <div class="flex flex-col text-white text-center mb-6">
+    <div id="eleicoesfaltam" class="mt-6">
+      @include('partials/snippets.eleicoesfaltam')
+    </div>
+    <hr class="my-4 w-2/4 relative left-1/4">
+    <div class="flex flex-col">
+      PROS Amapá © <br class="block lg:hidden">Todos os direitos reservados. {{ date('Y') }}
+      <p>CNPJ: 19.225.311/0001-87</p>
+      <p>Av. Henrique Galúcio, 1081 Macapá - AP, 68900-115</p>
+    </div>
+  </div>
 
   @php(dynamic_sidebar('sidebar-footer'))
   {{-- @include('partials/home.section2') --}}
