@@ -636,14 +636,20 @@ ul.wp-block-social-links {
   h2 {
     font-family: "source_sans_probold", sans-serif;
   }
-  
+
   .countdown {
     margin: 2rem 0rem 2rem 0rem !important;
     font-family: "source_sans_probold", sans-serif;
-    font-size: 9rem;
+    font-size: 7rem;
     border-color: blue;
     border-radius: 75px !important;
     border: 1.5rem solid #2A5E80;
     width: 20rem !important;
+
+    span.countdown_section > span {
+      display: block;
+      height: 5rem !important;
+      background-color: red;
+    
   }
 }
