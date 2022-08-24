@@ -7,7 +7,6 @@ module.exports = {
     extend: {
       colors: {
         pros90orange: '#F78F22',
-        // pros90blue: '#357CBF',
         pros90blue: '#17274F',
         pros90lightblue: '#17274F',
         pros90gray: '#F4F4F4',
