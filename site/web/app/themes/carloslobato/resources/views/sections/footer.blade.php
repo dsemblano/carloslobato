@@ -1,7 +1,7 @@
 <footer class="content-info bg-pros90blue mt-7 py-4 px-10">
   <div class="flex flex-col text-white text-center mb-2">
     <div id="eleicoesfaltam" class="mb-6">
-      @include('partials/snippets.eleicoesfaltam')
+      @include('partials/snippets.faltamdiashoras')
     </div>
   </div>
   <div class="text-center text-white fill-white">
