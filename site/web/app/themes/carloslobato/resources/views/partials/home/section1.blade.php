@@ -2,8 +2,7 @@
   <!--Left Col-->
   <div class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animate__animated animate__fadeInLeftBig">
     <h1 class="logonumero mb-4 uppercase text-7xl lg:text-9xl font-bold text-pros90blue">Carlos Lobato</h1>
-    <h2 class="logonumero mb-4 text-6xl lg:text-8xl font-bold text-center"> <span class="text-pros90orange">90</span><span
-        class="text-pros90blue">000</span></h2>
+    <h2 class="logonumero mb-4 text-6xl lg:text-8xl font-bold text-center text-pros90orange">90000</h2>
     <figure class="animate__animated animate__fadeInUpBig">
       <img class="block lg:hidden" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/Carlos Lobato foto perfil.png')" />
       <img class="block lg:hidden hrdec" src="@asset('images/hr_brand.png')" alt="linha decorativa">
