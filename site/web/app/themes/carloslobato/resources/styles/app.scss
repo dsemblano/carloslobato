@@ -40,6 +40,7 @@ $pros90orange: #F78F22;
 $pros90blue: #1346AC;
 $pros90lightblue: #2EAFE6;
 $pros90gray: #F4F4F4;
+$bluedays: #2A5E80;
 
 // Mixins
 %imgeffect {
@@ -632,18 +633,64 @@ ul.wp-block-social-links {
 }
 
 // Countdown
-#faltamdias {
-  h2 {
-    font-family: "source_sans_probold", sans-serif;
+// #faltamdias {
+//   h2 {
+//     font-family: "source_sans_probold", sans-serif;
+//   }
+
+//   .countdown {
+//     margin: 0 !important;
+//     font-family: "source_sans_probold", sans-serif;
+//     font-size: 7rem;
+//     width: 20rem !important;
+
+//     .countdown_section {
+//       br {
+//         display: none;
+//       }
+//       .countdown_amount {
+//         border-color: blue;
+//         border-radius: 75px !important;
+//         border: 1.5rem solid #2A5E80;
+//         padding-bottom: 3rem;
+//         display: flex;
+//         flex-direction: column;
+//         position: relative;
+//         top: 8rem;
+//       }
+//     }
+//   }
+// }
+
+#contador {
+  font-family: "source_sans_probold", sans-serif;
+
+  #faltamdias {
+    padding: 2rem 2rem 2rem 2rem;
+    border: 20px solid $bluedays;
+    border-radius: 60px;
   }
 
   .countdown {
-    margin: 2rem 0rem 2rem 0rem !important;
+    margin: 0 !important;
     font-family: "source_sans_probold", sans-serif;
     font-size: 7rem;
-    border-color: blue;
-    border-radius: 75px !important;
-    border: 1.5rem solid #2A5E80;
     width: 20rem !important;
+
+    .countdown_section {
+      br {
+        display: none;
+      }
+      .countdown_amount {
+        border-color: blue;
+        border-radius: 75px !important;
+        border: 1.5rem solid #2A5E80;
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8rem;
+      }
+    }
   }
 }
