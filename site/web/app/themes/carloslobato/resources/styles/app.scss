@@ -32,7 +32,6 @@
   font-display: swap;
   font-weight: normal;
   font-style: normal;
-
 }
 
 // Variables must reflect tailwind.config.js
@@ -693,4 +692,9 @@ ul.wp-block-social-links {
       }
     }
   }
+}
+
+// Read more
+.readmore {
+  @apply text-pros90orange font-bold text-lg;
 }
