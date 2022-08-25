@@ -36,6 +36,7 @@
 
 // Variables must reflect tailwind.config.js
 $pros90orange: #F78F22;
+$prosorangedark: #F45F2D;
 $pros90blue: #1346AC;
 $pros90lightblue: #2EAFE6;
 $pros90gray: #F4F4F4;
@@ -122,6 +123,10 @@ header.banner {
 
         a {
           @apply inline-block py-2 px-4 text-black font-bold no-underline;
+
+          &:hover {
+            @apply text-prosorangedark underline;
+          }
         }
       }
     }
@@ -135,7 +140,11 @@ header.banner {
 
   &:hover,
   &:active {
-    filter: brightness(0.85);
+    background-color: $prosorangedark !important;
+  }
+  
+  a {
+    color: white !important;
   }
 }
 
