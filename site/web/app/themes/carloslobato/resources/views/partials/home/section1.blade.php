@@ -7,7 +7,7 @@
       <picture class="z-50">
         <source class="z-50 imgwebp" width="600" height="718" alt="Imagem Carlos Lobato principal na home" srcset="@asset('images/CLperfil.webp')" type="image/webp"> 
         <source class="z-50 imgpng" width="600" height="718" alt="Imagem Carlos Lobato principal na home" srcset="@asset('images/CLperfil.png')" type="image/png">
-        <img class="z-50" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/CLperfil.png')" />
+        <img class="z-50" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/CLperfil.webp')" />
       </picture>
     </figure>
     <article class="mt-8 mb-8 prose lg:prose-2xl  prose-a:text-blue-800 prose-a:no-underline hover:prose-a:text-blue-500 hover:prose-a:underline">
@@ -33,7 +33,7 @@
     <picture class="z-50">
       <source class="z-50 imgwebp" width="600" height="718" alt="Imagem Carlos Lobato principal na home" srcset="@asset('images/CLperfil.webp')" type="image/webp"> 
       <source class="z-50 imgpng" width="600" height="718" alt="Imagem Carlos Lobato principal na home" srcset="@asset('images/CLperfil.png')" type="image/png">
-      <img class="z-50" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/CLperfil.png')" />
+      <img class="z-50" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/CLperfil.webp')" />
     </picture>
     <img class="block lg:hidden hrdec" src="@asset('images/hr_brand.png')" alt="linha decorativa">
   </div>
