@@ -23,7 +23,7 @@
   </div>
     <!--Right Col desktop -->
   <div class="social hidden lg:block w-full lg:w-3/5 pl-48 animate__animated animate__fadeInUpBig">
-    <img class="z-50 hidden lg:block" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/CLperfil.png')" />
+    <img class="clperfil z-50 hidden lg:block" width="600" height="718" alt="Imagem Carlos Lobato principal na home" src="@asset('images/CLperfil.png')" />
     <img class="z-50 hidden lg:block hrdec" src="@asset('images/hr_brand.png')" alt="linha decorativa">
   </div>
   <!--Right Col mobile -->
