@@ -707,3 +707,13 @@ ul.wp-block-social-links {
 .readmore {
   @apply text-prosorangedark font-bold text-lg;
 }
+
+#figurinhas {
+  font-family: 'rutanmedium', sans-serif;
+
+  button {
+    &:hover {
+      background-color: $prosorangedark;
+    }
+  }
+}

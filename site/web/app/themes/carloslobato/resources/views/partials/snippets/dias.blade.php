@@ -1,9 +1,15 @@
-<div id="contador" class="container px-8 lg:px-16 flex flex-col items-center text-pros90blue uppercase text-6xl">
+<section class="flex flex-col lg:flex-row">
+  <div id="contador" class="container px-8 lg:px-16 flex flex-col items-center text-pros90blue uppercase text-6xl">
     <h2 class="text-pros90blue uppercase text-7xl">Faltam</h2>
     <div id="faltamdias" class="text-prosorangedark text-9xl"></div>
     {{-- {!! do_shortcode('[countdown date="02 October 2022" hour="07"  color="#F78F22" format="d"]') !!} --}}
     <h2 class="text-pros90blue uppercase text-4xl text-center">dias paras as eleições 2022</h2>
 </div>
+
+  <div  class="container px-8 lg:px-16 text-pros90blue text-3xl">
+    @include('partials/snippets.figurinhas')
+  </div>
+</section>
 
 <script>
     // Set the date we're counting down to
