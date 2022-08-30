@@ -7,7 +7,6 @@
   <?php wp_head(); ?>
   <?php echo \Roots\view('layouts/head/favicon')->render(); ?>
   <?php echo \Roots\view('layouts/head/preload')->render(); ?>
-  <?php echo \Roots\view('layouts/head/criticalcss')->render(); ?>
 </head>
 
 <body <?php (WP_ENV !== 'production') ? body_class('debug-screens') : body_class(''); ?>>
