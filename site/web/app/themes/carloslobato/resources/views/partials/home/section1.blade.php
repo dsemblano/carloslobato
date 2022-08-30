@@ -18,7 +18,7 @@
       </p>
       
       @include('partials/snippets.socialicons')
-      @include('partials/snippets.fblikeshare')
+      {{-- @include('partials/snippets.fblikeshare') --}}
     </article>
   </div>
     <!--Right Col desktop -->
