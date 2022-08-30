@@ -10,8 +10,11 @@ module.exports = {
         prosorangedark: '#F45F2D',
         pros90blue: '#17274F',
         bluedays: '#2A5E80',
-        pros90lightblue: '#17274F',
+        pros90lightblue: '#2EAFE6',
         pros90gray: '#F4F4F4',
+        logoblue: '#1346AC',
+        logolightblue: '#2EAFE6',
+        logoorange: '#F78F22',
       },
       borderRadius: {
         extraLarge: '12rem',
