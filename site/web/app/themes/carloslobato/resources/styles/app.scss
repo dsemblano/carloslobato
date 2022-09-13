@@ -41,6 +41,9 @@ $pros90blue: #1346AC;
 $pros90lightblue: #2EAFE6;
 $pros90gray: #F4F4F4;
 $bluedays: #2A5E80;
+$logoblue: #1346AC;
+$logolightblue: #2EAFE6;
+$logoorange: #F78F22;
 
 // Mixins
 %imgeffect {
@@ -53,6 +56,13 @@ $bluedays: #2A5E80;
 %hoverimgeffect {
   -webkit-transform:scale(1.05);
   transform:scale(1.05);
+}
+
+%bgstripes {
+  background: linear-gradient(45deg, 
+  white    0%, white  40%, 
+  $logoblue   0%, $logoblue 80%,        
+  $logoorange 0%);
 }
 
 %formEffect {
@@ -271,6 +281,10 @@ header.banner {
   p.dpsp-share-text:first-of-type {
     display:none;
   }
+}
+
+#instagram {
+  @extend %bgstripes;
 }
 
 // Facebook box
