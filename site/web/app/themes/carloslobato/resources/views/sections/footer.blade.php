@@ -1,4 +1,4 @@
-<footer class="content-info bg-pros90blue mt-7 py-4 px-10">
+<footer class="content-info bg-pros90blue py-10 px-10">
   <div class="flex flex-col text-white text-center mb-2">
     <div id="eleicoesfaltam" class="mb-6">
       @include('partials/snippets.faltamdiashoras')
