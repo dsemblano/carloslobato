@@ -93,9 +93,30 @@ $logoorange: #F78F22;
   box-shadow:0 5px 4px rgb(0 0 0 / 10%);
 }
 
+%gradient {
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(0deg, rgba(255, 255, 255, 1) 92%, rgba(19, 70, 172, 0.86) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(0deg, rgba(255, 255, 255, 1) 92%, rgba(19, 70, 172, 0.86) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(0deg, rgba(255, 255, 255, 1) 92%, rgba(19, 70, 172, 0.86) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#1346AC', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(0deg, rgba(255, 255, 255, 1) 92%, rgba(19, 70, 172, 0.86) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(0deg, rgba(255, 255, 255, 1) 92%, rgba(19, 70, 172, 0.86) 100%);
+}
+
 body {
   // @apply bg-pros90gray;
   background-color: white;
+  // @extend %gradient;
 }
 
 // h1

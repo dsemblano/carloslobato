@@ -30,5 +30,8 @@
     "flickity": "^3.0.0",
     "flowbite": "^1.4.5",
     "tailwindcss-debug-screens": "^2.2.1"
+  },
+  "resolutions": {
+    "autoprefixer": "10.4.5"
   }
 }
