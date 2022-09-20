@@ -6,6 +6,7 @@
 
 @section('content')
     @include('partials/home.section1')
+    {{-- @include('partials/home.section2') --}}
     {{-- {!! do_shortcode('[wdi_feed id="1"]') !!} --}}
     @include('partials/snippets.dias')
     @include('partials/home.lobatovideo')

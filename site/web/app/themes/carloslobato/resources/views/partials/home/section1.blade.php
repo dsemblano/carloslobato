@@ -3,9 +3,9 @@
     <!--Left Col-->
     <div
       class="flex flex-col w-full lg:w-2/5 justify-center text-center lg:text-left animate__animated animate__fadeInLeftBig">
-      <h1 class="logonumero gradient-text mb-4 uppercase text-7xl lg:text-9xl font-bold text-logoblue">Carlos Lobato
+      <h1 class="font-rutanblack gradient-text mb-4 uppercase text-7xl lg:text-9xl font-bold text-logoblue">Carlos Lobato
       </h1>
-      <h2 class="logonumero gradient-text mb-4 text-6xl lg:text-8xl font-bold text-center text-logoorange">90000</h2>
+      <h2 class="gradient-text mb-4 text-6xl lg:text-8xl font-rutanblack font-bold text-center text-logoorange">90000</h2>
       <figure class="animate__animated animate__fadeInUpBig">
         <img class="block lg:hidden" width="600" height="718" alt="Imagem Carlos Lobato principal na home"
           src="@asset('images/CLperfil.png')" />

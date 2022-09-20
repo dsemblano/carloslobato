@@ -19,6 +19,11 @@ module.exports = {
       borderRadius: {
         extraLarge: '12rem',
         Large: '8rem'
+      },
+      fontFamily: {
+        rutanblack: ["rutanblack", "sans-serif"],
+        rutanmedium: ["rutanmedium", "sans-serif"],
+        probold: ["source_sans_probold", "sans-serif"],
       }
     },
   },

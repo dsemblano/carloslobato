@@ -11,7 +11,7 @@
 });
 </script>
 
-<header class="banner bg-white fixed top-0 w-full z-50">
+<header class="banner font-rutanmedium bg-white fixed top-0 w-full z-50">
   <nav class="nav-primary container py-2 px-4 lg:px-16">
     <div class="flex flex-wrap lg:flex-nowrap justify-between items-center mx-auto">
       <a class="brand flex items-center" href="{{ home_url('/') }}">

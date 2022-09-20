@@ -13,7 +13,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+\
 @font-face {
   font-family: 'rutanmedium';
   src: url('~@fonts/rutan-medium-webfont.woff2') format('woff2'),
@@ -120,19 +120,6 @@ body {
 }
 
 // h1
-.logonumero {
-  // text-shadow: 2px 2px 2px rgb(150 150 150);
-  font-family: 'rutanblack', sans-serif;
-}
-
-.mudar {
-  font-family: 'rutanblack', sans-serif;
-}
-
-header.banner {
-  font-family: 'rutanmedium', sans-serif;
-}
-
 .clperfil {
   @apply bg-no-repeat bg-center;
 
@@ -683,43 +670,9 @@ ul.wp-block-social-links {
   display: none !important;
 }
 
-// Countdown
-// #faltamdias {
-//   h2 {
-//     font-family: "source_sans_probold", sans-serif;
-//   }
-
-//   .countdown {
-//     margin: 0 !important;
-//     font-family: "source_sans_probold", sans-serif;
-//     font-size: 7rem;
-//     width: 20rem !important;
-
-//     .countdown_section {
-//       br {
-//         display: none;
-//       }
-//       .countdown_amount {
-//         border-color: blue;
-//         border-radius: 75px !important;
-//         border: 1.5rem solid #2A5E80;
-//         padding-bottom: 3rem;
-//         display: flex;
-//         flex-direction: column;
-//         position: relative;
-//         top: 8rem;
-//       }
-//     }
-//   }
-// }
-
 #contador {
-  font-family: "source_sans_probold", sans-serif;
-
   #faltamdias {
-    padding: 2rem 2rem 2rem 2rem;
     border: 20px solid $bluedays;
-    border-radius: 60px;
   }
 
   .countdown {
@@ -749,16 +702,6 @@ ul.wp-block-social-links {
 // Read more
 .readmore {
   @apply text-prosorangedark font-bold text-lg;
-}
-
-#figurinhas {
-  font-family: 'rutanmedium', sans-serif;
-
-  button {
-    &:hover {
-      background-color: $prosorangedark;
-    }
-  }
 }
 
 #sb_instagram .sb_instagram_header, .sb_instagram_header {
